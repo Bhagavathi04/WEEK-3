@@ -4,18 +4,17 @@ ChangeColor.html
 <html>
 <head>
 <script>
-function changeColor()
+function GO()
 {
-var color = document.getElementById('color').value;
-var body = document.getElementsByTagName('body')[0];
-body.style.backgroundColor=color;
+Alert("hello vjit");
+body.style.backgroundColor=pink;
 }
 </script>
 </head>
 <body>
 <input type="text" id="color" placeholder="#FFFFFF">
 <br><br>
-<button onclick="changeColor()">Change Color</button>
+<input type =button value="change colr" onclick="go()">Change Color</button>
 </body>
 </html>
 O/P:
